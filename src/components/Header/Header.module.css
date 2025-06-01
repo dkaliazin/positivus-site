@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 70px;
 }
 .headerpositivus {
   margin: 0 210px 0 13px;
