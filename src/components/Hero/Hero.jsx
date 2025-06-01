@@ -1,5 +1,11 @@
 import css from './Hero.module.css';
 import heroimg from '../../assets/heroimg.png';
+import heroAmazon from '../../assets/heroAmazon.svg';
+import heroDribbble from '../../assets/heroDribbble.svg';
+import heroHubspot from '../../assets/heroHubspot.svg';
+import heroNetflix from '../../assets/heroNetflix.svg';
+import heroNotion from '../../assets/heroNotion.svg';
+import heroZoom from '../../assets/heroZoom.svg';
 const Hero =()=>{
     return (
         <div className={css.hero}>
@@ -16,6 +22,14 @@ const Hero =()=>{
                     <img src={heroimg} alt="Hero Image" className={css.heroimg}></img>
                 </picture>
             </div> 
+            <div className={css.iconbox}> 
+                <img src={heroAmazon} alt="Icon Amazon" className={css.icon}></img>
+                <img src={heroDribbble} alt="Icon Amazon" className={css.icon}></img>
+                <img src={heroHubspot} alt="Icon Amazon" className={css.icon}></img>
+                <img src={heroNetflix} alt="Icon Amazon" className={css.icon}></img>
+                <img src={heroNotion} alt="Icon Amazon" className={css.icon}></img>
+                <img src={heroZoom} alt="Icon Amazon" className={css.icon}></img>
+            </div>
         </div>
     )
 }

@@ -1,4 +1,8 @@
 .hero {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  justify-content: center;
 }
 h1 {
   margin: 0;
@@ -42,4 +46,13 @@ p {
 .heroimg {
   width: 600px;
   height: 515px;
+}
+.iconbox {
+  display: flex;
+  gap: 95px;
+  justify-content: center;
+}
+.icon {
+  color: grey;
+  fill: grey;
 }
