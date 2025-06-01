@@ -36,4 +36,10 @@ p {
   height: 481px;
 }
 .textimgbox {
+  display: flex;
+  gap: 125px;
+}
+.heroimg {
+  width: 600px;
+  height: 515px;
 }

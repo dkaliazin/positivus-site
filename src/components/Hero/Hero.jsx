@@ -1,4 +1,5 @@
 import css from './Hero.module.css';
+import heroimg from '../../assets/heroimg.png';
 const Hero =()=>{
     return (
         <div className={css.hero}>
@@ -10,8 +11,11 @@ const Hero =()=>{
                     </p>
                     <button className={css.herobtn}>Book a consultation</button>
                 </div>
-            </div>
-            
+                <picture>
+                    <source srcSet={heroimg} type="image/png" />
+                    <img src={heroimg} alt="Hero Image" className={css.heroimg}></img>
+                </picture>
+            </div> 
         </div>
     )
 }
