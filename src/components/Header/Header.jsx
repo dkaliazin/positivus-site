@@ -10,7 +10,7 @@ const Header = () => {
                 <li className={css.navitem}>Pricing</li>
                 <li className={css.navitem}>Blog</li>
             </ul>
-
+        <button>Request a quote</button>
 
         </header>
     )

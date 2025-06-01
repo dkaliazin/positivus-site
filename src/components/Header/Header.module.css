@@ -1,11 +1,41 @@
 .header {
   color: black;
+  font-family: "Space Grotesk";
+  /*padding: 60px 100px 0px 100px;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .headerpositivus {
+  margin: 0 210px 0 13px;
+  font-size: 60px;
+  font-weight: 500;
 }
 .navigation {
+  margin: 0;
+  padding: 0;
+  margin-right: 40px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-size: 20px;
+  list-style: none;
 }
 .navitem {
+  margin: 0;
 }
-.button {
+button {
+  padding: 0 35px;
+  height: 68px;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: 28px;
+  border-radius: 14px;
+  outline: 1px #191a23 solid;
+  outline-offset: -1px;
+  background-color: white;
 }
