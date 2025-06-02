@@ -1,0 +1,114 @@
+p {
+  color: #191a23;
+  margin: 0;
+  font-size: 18px;
+  font-family: Space Grotesk;
+  font-weight: 400;
+}
+h2 {
+  color: #191a23;
+  margin: 0;
+  font-size: 40px;
+  font-family: Space Grotesk;
+  font-weight: 500;
+}
+h3 {
+  color: #191a23;
+  margin: 0;
+  font-size: 30px;
+  font-family: Space Grotesk;
+  font-weight: 500;
+}
+
+.headerbox {
+  margin: 0;
+  display: flex;
+  gap: 40px;
+  padding-bottom: 80px;
+}
+.headerboxtext {
+  color: #191a23;
+  margin: 0;
+  font-size: 18px;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  max-width: 580px;
+}
+.headerboxheader {
+  color: #191a23;
+  background-color: #b9ff66;
+  padding: 0 7px;
+  border-radius: 7px;
+}
+.services {
+  margin: 0;
+}
+.servicesbox {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+.servicesitem {
+  background-color: #f3f3f3;
+  max-width: 600px;
+  padding: 50px;
+  box-shadow: 0px 5px 0px #191a23;
+  overflow: hidden;
+  border-radius: 45px;
+  outline: 1px #191a23 solid;
+  outline-offset: -1px;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+}
+.servicesitembox {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+}
+.servicesitemlink {
+  color: #191a23;
+  margin: 0;
+  font-size: 18px;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  text-decoration: none;
+}
+.whitetext {
+  color: white;
+}
+.servicesimg {
+}
+.servicesheader {
+  border-radius: 7px;
+  margin: 0;
+  padding: 0 7px;
+  font-size: 30px;
+  font-family: Space Grotesk;
+  font-weight: 500;
+  display: inline-block;
+}
+.green {
+  background-color: #b9ff66;
+}
+.grey {
+  background-color: #f3f3f3;
+}
+.white {
+  background-color: white;
+}
+.black {
+  background-color: #191a23;
+}
+.proposalbox {
+}
+.iconarrow {
+}
+.fillgreen {
+  fill: #b9ff66;
+  stroke: white;
+  color: white;
+}

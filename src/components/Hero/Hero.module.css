@@ -7,14 +7,14 @@
 }
 h1 {
   margin: 0;
-  color: black;
+  color: #191a23;
   font-family: "Space Grotesk";
   font-size: 60px;
   font-weight: 500;
 }
 p {
   margin: 0;
-  color: black;
+  color: #191a23;
   font-family: "Space Grotesk";
   font-size: 20px;
   font-weight: 400;
@@ -24,7 +24,7 @@ p {
   color: white;
   font-size: 20px;
   font-weight: 400;
-  background-color: black;
+  background-color: #191a23;
   width: 264px;
   height: 68px;
   display: flex;
@@ -43,6 +43,7 @@ p {
 .textimgbox {
   display: flex;
   gap: 125px;
+  justify-content: space-between;
 }
 .heroimg {
   width: 600px;
@@ -51,7 +52,7 @@ p {
 .iconbox {
   display: flex;
   gap: 95px;
-  justify-content: center;
+  justify-content: space-between;
 }
 .icon {
   color: grey;

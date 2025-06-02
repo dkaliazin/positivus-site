@@ -3,8 +3,11 @@ import logo from '../../assets/logo.svg';
 const Header = () => {
     return (
         <header className={css.header}>
-            <img src={logo} alt="positivus logo" className={css.logo}></img>
-            <h1 className={css.headerpositivus}>Positivus</h1>
+            <div className={css.box}>
+                <img src={logo} alt="positivus logo" className={css.logo}></img>
+                <h1 className={css.headerpositivus}>Positivus</h1>
+            </div>
+           
             <ul className={css.navigation}>
                 <li className={css.navitem}>About us</li>
                 <li className={css.navitem}>Services</li>
