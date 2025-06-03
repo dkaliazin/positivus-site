@@ -5,8 +5,7 @@ import windowsImage from '../../assets/tokyo-many-browser-windows-with-different
 import messageImage from '../../assets/tokyo-sending-messages-from-one-place-to-another 1.png';
 import selectImage from '../../assets/tokyo-selecting-a-value-in-the-browser-window 1.png';
 import volumetricImage from '../../assets/tokyo-volumetric-analytics-of-different-types-in-web-browsers 2.png';
-import arrow from '../../assets/arrow.svg';
-import { ReactComponent as ArrowIcon } from '../../assets/arrow.svg';
+import { BiRightTopArrowCircle } from "react-icons/bi";
 const Services = () => {
     return (
         <div className={css.services}>
@@ -23,7 +22,7 @@ const Services = () => {
                         </h3>
                   
                         <a href="" className={`${css.servicesitemlink}`}>
-                            <ArrowIcon className={`${css.iconarrow} ${css.fillgreen}`} />
+                            <BiRightTopArrowCircle className={`${css.iconarrow} ${css.fillblack}`}/>
                             
                             <span>Learn more</span>
                         </a>
@@ -40,7 +39,7 @@ const Services = () => {
                             <span className={`${css.servicesheader} ${css.white}`}>advertising</span>
                         </h3>
                         <a href="" className={`${css.servicesitemlink}`}>
-                            <img src={arrow} alt="Arrow button" className={css.iconarrow} />
+                            <BiRightTopArrowCircle className={`${css.iconarrow} ${css.fillblack}`}/>
                             <span>Learn more</span>
                         </a>
                     </div>
@@ -56,7 +55,7 @@ const Services = () => {
                             <span className={`${css.servicesheader} ${css.white}`}>Marketing</span>
                         </h3>
                         <a href="" className={`${css.servicesitemlink} ${css.whitetext}`}>
-                            <img src={arrow} alt="Arrow button" className={css.iconarrow} />
+                            <BiRightTopArrowCircle className={`${css.iconarrow} ${css.fillgreen}`}/>
                             <span>Learn more</span>
                         </a>
                     </div>
@@ -72,13 +71,14 @@ const Services = () => {
                             <span className={`${css.servicesheader} ${css.green}`}>Marketing</span>
                         </h3>
                         <a href="" className={`${css.servicesitemlink}`}>
-                            <img src={arrow} alt="Arrow button" className={css.iconarrow} />
+                            <BiRightTopArrowCircle className={`${css.iconarrow} ${css.fillgreen}`}/>
                             <span>Learn more</span>
                         </a>
+                        <a href="https://fonts.google.com/specimen/Space+Grotesk" className={css.servicesfontlink}>You can find font here</a>
                     </div>
                     <picture>
                         <source srcSet={messageImage} type="image/png" />
-                        <img src={messageImage} alt="" className={css.servicesimg}></img>
+                        <img src={messageImage} alt="" className={css.servicesimgfixed}></img>
                     </picture>
                 </div>
                 <div className={`${css.servicesitem} ${css.green}`}>
@@ -88,7 +88,7 @@ const Services = () => {
                             <span className={`${css.servicesheader} ${css.white}`}>Creation</span>
                         </h3>
                         <a href="" className={`${css.servicesitemlink}`}>
-                            <img src={arrow} alt="Arrow button" className={css.iconarrow} />
+                            <BiRightTopArrowCircle className={`${css.iconarrow} ${css.fillblack}`}/>
                             <span>Learn more</span>
                         </a>
                     </div>
@@ -104,7 +104,7 @@ const Services = () => {
                             <span className={`${css.servicesheader} ${css.green}`}>Tracking</span>
                         </h3>
                         <a href="" className={`${css.servicesitemlink} ${css.whitetext}`}>
-                            <img src={arrow} alt="Arrow button" className={css.iconarrow} />
+                            <BiRightTopArrowCircle className={`${css.iconarrow} ${css.fillgreen}`}/>
                             <span>Learn more</span>
                         </a>
                     </div>
