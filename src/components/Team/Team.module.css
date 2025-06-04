@@ -1,0 +1,36 @@
+.team {
+}
+.teamheaderbox {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.teamheaderboxheader {
+  background-color: #b9ff66;
+  border-radius: 7px;
+  padding: 0 7px;
+  margin: 0;
+}
+.teamheaderboxtext {
+  max-width: 450px;
+}
+.teambox {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+.teamboxitem {
+  max-width: 387px;
+  height: 331px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: white;
+  box-shadow: 0px 5px 0px #191a23;
+  overflow: hidden;
+  border-radius: 45px;
+  outline: 1px #191a23 solid;
+  outline-offset: -1px;
+}

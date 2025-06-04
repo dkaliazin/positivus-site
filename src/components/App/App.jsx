@@ -3,7 +3,9 @@ import { useState } from 'react'
 import Header from '../Header/Header';
 import Hero from '../Hero/Hero';
 import Services from '../Services/Services';
-import CaseStudies from '../Case Studies/Case studies';
+import CaseStudies from '../CaseStudies/CaseStudies';
+import OurWorkingProcess from '../OurWorkingProcess/OurWorkingProcess';
+import Team from '../Team/Team';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -12,7 +14,9 @@ function App() {
       <Header />
       <Hero />
       <Services />
-      <CaseStudies/>
+      <CaseStudies />
+      <OurWorkingProcess />
+      <Team/>
     </>
   )
 }

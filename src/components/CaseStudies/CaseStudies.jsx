@@ -1,4 +1,4 @@
-import css from './Case Studies.module.css';
+import css from './CaseStudies.module.css';
 import proposalimage from '../../assets/proposalimage.png'
 import { BiRightTopArrowCircle } from "react-icons/bi";
 const CaseStudies = () => {
@@ -6,7 +6,7 @@ const CaseStudies = () => {
         <>
             <div className={css.proposal}>
                 <div className={css.proposalbox}>
-                    <h3 className={css.proposalheader}>Let’s make things happen</h3>
+                    <h2 className={css.proposalheader}>Let’s make things happen</h2>
                     <p className={css.proposaltext}>Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
                     <a href="" className={css.proposallink}>Get your free proposal</a>
                  </div>
