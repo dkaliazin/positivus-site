@@ -1,0 +1,24 @@
+.testimon {
+}
+.testimonheaderbox {
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  margin-bottom: 80px;
+}
+.testimonheaderboxheader {
+  background-color: #b9ff66;
+  border-radius: 7px;
+  padding: 0 7px;
+}
+.testimonheaderboxtext {
+  max-width: 475px;
+}
+.testimonbox {
+  width: 1360px;
+  height: 625px;
+  position: relative;
+  background: #191a23;
+  overflow: hidden;
+  border-radius: 45px;
+}

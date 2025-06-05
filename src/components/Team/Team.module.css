@@ -1,4 +1,6 @@
 .team {
+  margin: 0;
+  margin-bottom: 100px;
 }
 .teamheaderbox {
   display: flex;
