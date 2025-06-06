@@ -11,7 +11,7 @@ const Testimonials = () => {
             </div>
 
             <div className={css.testimonbox}>
-1
+                
             </div>
         </div>
     )

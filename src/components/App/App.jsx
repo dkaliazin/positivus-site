@@ -7,6 +7,7 @@ import CaseStudies from '../CaseStudies/CaseStudies';
 import OurWorkingProcess from '../OurWorkingProcess/OurWorkingProcess';
 import Team from '../Team/Team'
 import Testimonials from '../Testimonials/Testimonials';
+import ContactForm from '../ContactForm/ContactForm';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -18,7 +19,8 @@ function App() {
       <CaseStudies />
       <OurWorkingProcess />
       <Team />
-      <Testimonials/>
+      <Testimonials />
+      <ContactForm/>
     </>
   )
 }
