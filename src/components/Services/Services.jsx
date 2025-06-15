@@ -8,7 +8,7 @@ import volumetricImage from '../../assets/tokyo-volumetric-analytics-of-differen
 import { BiRightTopArrowCircle } from "react-icons/bi";
 const Services = () => {
     return (
-        <div className={css.services}>
+        <section className={css.services}>
             <div className={css.headerbox}>
                 <h2 className={css.headerboxheader}>Services</h2>
                 <p className={css.headerboxtext}>At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
@@ -117,7 +117,7 @@ const Services = () => {
             <div className={css.proposalbox}>
                 
             </div>
-        </div>
+        </section>
     )
 }
 export default Services;

@@ -8,7 +8,7 @@ import heroNotion from '../../assets/heroNotion.svg';
 import heroZoom from '../../assets/heroZoom.svg';
 const Hero =()=>{
     return (
-        <div className={css.hero}>
+        <section className={css.hero}>
             <div className={css.textimgbox}>
                 <div className={css.textbox}>
                     <h1>Navigating the digital landscape for success</h1>
@@ -30,7 +30,7 @@ const Hero =()=>{
                 <img src={heroNotion} alt="Icon Amazon" className={css.icon}></img>
                 <img src={heroZoom} alt="Icon Amazon" className={css.icon}></img>
             </div>
-        </div>
+        </section>
     )
 }
 export default Hero;

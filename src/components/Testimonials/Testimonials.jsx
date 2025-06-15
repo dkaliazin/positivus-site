@@ -2,7 +2,7 @@ import css from './Testimonials.module.css';
 
 const Testimonials = () => {
     return (
-        <div className={css.testimon}>
+        <section className={css.testimon}>
             <div className={css.testimonheaderbox}>
                 <h2 className={css.testimonheaderboxheader}>Testimonials</h2>
                 <p className={css.testimonheaderboxtext}>
@@ -13,7 +13,7 @@ const Testimonials = () => {
             <div className={css.testimonbox}>
                 
             </div>
-        </div>
+        </section>
     )
 }
 export default Testimonials;

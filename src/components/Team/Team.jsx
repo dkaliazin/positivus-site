@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 const Team = () => {
     return (
-        <div className={css.team}>
+        <section className={css.team}>
             <div className={css.teamheaderbox}>
                 <h2 className={css.teamheaderboxheader}>Team</h2>
                 <p className={css.teamheaderboxtext}>
@@ -97,7 +97,7 @@ const Team = () => {
                     </p>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 export default Team;
