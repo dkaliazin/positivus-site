@@ -8,6 +8,7 @@ import OurWorkingProcess from '../OurWorkingProcess/OurWorkingProcess';
 import Team from '../Team/Team'
 import Testimonials from '../Testimonials/Testimonials';
 import ContactForm from '../ContactForm/ContactForm';
+import Footer from '../Footer/Footer';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -20,7 +21,8 @@ function App() {
       <OurWorkingProcess />
       <Team />
       <Testimonials />
-      <ContactForm/>
+      <ContactForm />
+      <Footer/>
     </>
   )
 }
