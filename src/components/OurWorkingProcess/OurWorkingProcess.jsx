@@ -2,7 +2,7 @@ import css from './OurWorkingProcess.module.css';
 import { CiCirclePlus } from "react-icons/ci";
 const OurWorkingProcess = () => {
     return (
-        <section className={css.ourworkingprocess}>
+        <section className={css.ourworkingprocess} id="ourworkingprocess">
             <div className={css.processheadbox}>
                 <h2 className={css.processheadboxheader}>Our Working Process </h2>
                 <p className={css.processheadboxtext}>

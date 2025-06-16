@@ -5,7 +5,7 @@ const ContactForm = () => {
   const [selectedOption, setSelectedOption] = useState('hi');
 
   return (
-    <section className={css.contactform}>
+    <section className={css.contactform} id="contactform">
       <div className={css.header}>
         <h2><span className={css.highlight}>Contact Us</span></h2>
         <p>Connect with Us: Let’s Discuss Your Digital Marketing Needs</p>

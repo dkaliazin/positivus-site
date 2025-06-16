@@ -8,7 +8,7 @@ import heroNotion from '../../assets/heroNotion.svg';
 import heroZoom from '../../assets/heroZoom.svg';
 const Hero =()=>{
     return (
-        <section className={css.hero}>
+        <section className={css.hero} id="hero">
             <div className={css.textimgbox}>
                 <div className={css.textbox}>
                     <h1>Navigating the digital landscape for success</h1>

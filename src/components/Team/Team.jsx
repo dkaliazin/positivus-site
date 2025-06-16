@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 const Team = () => {
     return (
-        <section className={css.team}>
+        <section className={css.team} id="team">
             <div className={css.teamheaderbox}>
                 <h2 className={css.teamheaderboxheader}>Team</h2>
                 <p className={css.teamheaderboxtext}>

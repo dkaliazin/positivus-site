@@ -56,3 +56,17 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+button {
+  padding: 0 35px;
+  height: 68px;
+  text-align: center;
+  color: #191a23;
+  font-size: 20px;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: 28px;
+  border-radius: 14px;
+  outline: 1px #191a23 solid;
+  outline-offset: -1px;
+  background-color: white;
+}

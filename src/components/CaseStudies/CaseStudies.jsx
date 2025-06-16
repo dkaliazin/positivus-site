@@ -3,7 +3,7 @@ import proposalimage from '../../assets/proposalimage.png'
 import { BiRightTopArrowCircle } from "react-icons/bi";
 const CaseStudies = () => {
     return (
-        <section className={css.casestudies}>
+        <section className={css.casestudies} >
             <div className={css.proposal}>
                 <div className={css.proposalbox}>
                     <h2 className={css.proposalheader}>Let’s make things happen</h2>
@@ -16,7 +16,7 @@ const CaseStudies = () => {
             </picture>
             </div>
 
-            <div className={css.caseheaderbox}>
+            <div className={css.caseheaderbox} id="casestudies">
                 <h2 className={css.caseheaderboxheader}>Case Studies</h2>
                 <p className={css.caseheaderboxtext}>Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies</p>
             </div>

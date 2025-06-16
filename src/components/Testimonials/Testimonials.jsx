@@ -2,7 +2,7 @@ import css from './Testimonials.module.css';
 
 const Testimonials = () => {
     return (
-        <section className={css.testimon}>
+        <section className={css.testimon} id="testimonials">
             <div className={css.testimonheaderbox}>
                 <h2 className={css.testimonheaderboxheader}>Testimonials</h2>
                 <p className={css.testimonheaderboxtext}>

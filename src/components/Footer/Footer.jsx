@@ -5,11 +5,11 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
 const Footer = () => {
     return (
-        <section className={css.footer}>
+        <section className={css.footer} id="footer">
             <div className={css.header}>
                  <img src={logo} alt="positivus logo" className={css.logo}></img>
                 <h1 className={css.title}>Positivius</h1>
-                <ul className={css.anchorlist}>
+                <nav className={css.anchorlist}>
                     <li className={css.anchorlistitem}>
                         <a href="" className={css.anchorlistitemlink}>About us</a>
 
@@ -29,7 +29,7 @@ const Footer = () => {
                     <li className={css.anchorlistitem}>
                         <a href="" className={css.anchorlistitemlink}>Blog</a>
                     </li>    
-                </ul>
+                </nav>
                 <ul className={css.socials}>
                     <li className={css.socialsitem}>
                         <a href="https://www.linkedin.com/" className={css.socialsitemlink}>
