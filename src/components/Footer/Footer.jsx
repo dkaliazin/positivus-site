@@ -1,13 +1,13 @@
 import css from './Footer.module.css';
-import logo from '../../assets/logo.svg';
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
+import logowhite from '../../assets/logo-white.svg'
 const Footer = () => {
     return (
         <section className={css.footer} id="footer">
             <div className={css.header}>
-                 <img src={logo} alt="positivus logo" className={css.logo}></img>
+                 <img src={logowhite} alt="positivus logo" className={css.logo}></img>
                 <h1 className={css.title}>Positivius</h1>
                 <nav className={css.anchorlist}>
                     <li className={css.anchorlistitem}>
@@ -47,6 +47,42 @@ const Footer = () => {
                         </a>
                     </li>
                 </ul>
+            </div>
+            <div className={css.contactbox}>
+                <div className={css.addressbox}>
+                    <h4 className={css.addressboxtitle}>Contact us:</h4>
+                    <address className={css.addresslist}>
+                        <p className={css.addresstext}>Email:
+                            <a href="" className={css.addresslink}> info@positivus.com</a>
+                        </p>
+                        <p className={css.addresstext}>Phone:
+                            <a href="" className={css.addresslink}> 555-567-8901</a>
+                        </p>
+                        <p className={css.addresstext}>Address:
+                            <a href="" className={css.addresslink}> 1234 Main St <br />
+                            Moonstone City, Stardust State 12345</a>
+                        </p>
+                </address>
+                </div>
+                <form className={css.subform} onSubmit={(e) => e.preventDefault()}>
+                    <label htmlFor="email" className={css.visuallyhidden}>Email</label>
+                    <input type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Email"
+                        required
+                        className={css.emailinput}
+                    />
+                    <button type="submit" className={css.subbtn}>
+                        Subscride to news
+
+                    </button>
+                </form>
+            </div>
+            <span className={css.whiteline} />
+            <div className={css.privpolbox}>
+                <p className={css.addresstext}>© 2023 Positivus. All Rights Reserved.</p>
+                <a href="https://www.privacypolicygenerator.info/" className={css.privpollink}>Privacy Policy</a>
             </div>
         </section>
     )

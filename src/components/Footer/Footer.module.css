@@ -62,3 +62,94 @@
   width: 25px;
   height: 25px;
 }
+.contactbox {
+  display: flex;
+  gap: 254px;
+}
+.addressbox {
+  margin: 0;
+  padding: 0;
+}
+.addressboxtitle {
+  color: black;
+  font-size: 20px;
+  background-color: #b9ff66;
+  border-radius: 7px;
+  padding: 0 7px;
+  margin-bottom: 27px;
+}
+.addresstext {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+.addresslist {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.addresslink {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+.subform {
+  border-radius: 14px;
+  background-color: #292a32;
+  padding: 58px 40px;
+  width: 650px;
+  height: 184px;
+  box-sizing: border-box;
+}
+.visuallyhidden {
+  display: none;
+}
+.emailinput {
+  border: 1px solid #fff;
+  border-radius: 14px;
+  padding: 22px 35px;
+  width: 285px;
+  height: 67px;
+  box-sizing: border-box;
+  background-color: #292a32;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: sans-serif, "Space Grotesk";
+  margin-right: 20px;
+}
+.emailinput::placeholder {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: sans-serif, "Space Grotesk";
+}
+.subbtn {
+  background-color: #b9ff66;
+  border-radius: 14px;
+  padding: 20px 35px;
+  width: 260px;
+  height: 68px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+}
+.whiteline {
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin: 0;
+  padding: 0;
+  width: 1240px;
+}
+.privpolbox {
+  display: flex;
+  gap: 40px;
+}
+.privpollink {
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  text-decoration: underline;
+  font-family: sans-serif, "Space Grotesk";
+}
