@@ -36,3 +36,6 @@
   outline: 1px #191a23 solid;
   outline-offset: -1px;
 }
+.teamboxitemtop {
+  display: flex;
+}

@@ -22,3 +22,16 @@
   overflow: hidden;
   border-radius: 45px;
 }
+.testimonslide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1240px;
+  height: 100%;
+  padding: 0 40px;
+  text-align: center;
+  color: white;
+}
+.testimontext {
+  color: white;
+}

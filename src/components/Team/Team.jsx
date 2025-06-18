@@ -2,18 +2,19 @@ import css from './Team.module.css';
 import { FaLinkedin } from "react-icons/fa6";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import mask from '../../assets/maskShape.svg';
 const Team = () => {
     return (
         <section className={css.team} id="team">
             <div className={css.teamheaderbox}>
                 <h2 className={css.teamheaderboxheader}>Team</h2>
                 <p className={css.teamheaderboxtext}>
-                    Meet the skilled and experienced team behind our successful digital marketing strategies
+                    Meet the skilled and experienced team behind our <br/>successful digital marketing strategies
                 </p>
             </div>
             <div className={css.teambox}>
                 <div className={css.teamboxitem}>
-                    <div>
+                    <div className={css.teamboxitemtop}>
                         <picture></picture>
                         <div>
                             <h4>John Smith</h4>
@@ -27,7 +28,7 @@ const Team = () => {
                     </p>
                 </div>
                 <div className={css.teamboxitem}>
-                    <div>
+                    <div className={css.teamboxitemtop}>
                         <picture></picture>
                         <div>
                             <h4>Jane Doe</h4>
@@ -41,7 +42,7 @@ const Team = () => {
                     </p>
                 </div>
                 <div className={css.teamboxitem}>
-                    <div>
+                    <div className={css.teamboxitemtop}>
                         <picture></picture>
                         <div>
                             <h4>Michael Brown</h4>
@@ -55,7 +56,7 @@ const Team = () => {
                     </p>
                 </div>
                 <div className={css.teamboxitem}>
-                    <div>
+                    <div className={css.teamboxitemtop}>
                         <picture></picture>
                         <div>
                             <h4>Emily Johnson</h4>
@@ -69,7 +70,7 @@ const Team = () => {
                     </p>
                 </div>
                 <div className={css.teamboxitem}>
-                    <div>
+                    <div className={css.teamboxitemtop}>
                         <picture></picture>
                         <div>
                             <h4>Brian Williams</h4>
@@ -83,7 +84,7 @@ const Team = () => {
                     </p>
                 </div>
                 <div className={css.teamboxitem}>
-                    <div>
+                    <div className={css.teamboxitemtop}>
                         <picture></picture>
                         <div>
                             <h4>Sarah Kim</h4>
