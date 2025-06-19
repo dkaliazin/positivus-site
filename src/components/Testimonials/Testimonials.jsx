@@ -1,9 +1,9 @@
 import css from './Testimonials.module.css';
-import Slider from 'react-slick';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 const Testimonials = () => {
     const testimonialsBase = [
         {
@@ -37,17 +37,6 @@ const Testimonials = () => {
             job: "VP of Marketing at Horizon Group"
         },
     ]
-        const settings = {
-        dots: true,         
-        arrows: true,      
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        centerMode: true,
-        focusOnSelect: true
-    };
-
     return (
         <section className={css.testimon} id="testimonials">
             <div className={css.testimonheaderbox}>
@@ -57,34 +46,36 @@ const Testimonials = () => {
                 </p>
             </div>
 
-            {/* <div className={css.testimonbox}*/}
             <div className={css.testimonbox}>
-                {/*<Slider {...settings}>
-                    {testimonialsBase.map((t, index) => (
-                        <div className={css.testimonslide} key={index}>
-                            <p className={css.testimontext}>"{t.text}"</p>
-                            <div className={css.testimonauthor}>
-                                <p className={css.testimonname}>{t.name}</p>
-                                <p className={css.testimonjob}>{t.job}</p>
-                            </div>
-                        </div>
-                    
-                    ))}
-
-                </Slider>*/}
-                <Swiper className={css.testimonslide}
+                <Swiper 
+                    className={css.testimonswiper}
+                    wrapperClass={css.testimonwrapper}
                     modules={[Navigation, Pagination]}
                     spaceBetween={30}
-                    slidesPerView={1}
+                    slidesPerView="auto"
                     centeredSlides
                     loop
                     navigation
                     pagination={{ clickable: true }}
                 >
                     {testimonialsBase.map((t, i) => (
-                        <SwiperSlide key={i}  >
-                            <p className={css.testimontext}>{t.text}</p>
-                            <p className={css.testimontext}>{t.name}</p>
+                        <SwiperSlide key={i} className={css.swiperslide}>
+                            <span className={css.rectangle}>
+                                <p className={css.testimontext}>{t.text}</p>
+                                
+                            </span>
+                            
+                            <div className={css.testimondesc}>
+                                <div className={css.triangle}>
+                                    <svg width="60" height="40" viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg">
+                                        <line x1="0" y1="0" x2="30" y2="40" stroke="#b9ff66" strokeWidth="1" />
+                                        <line x1="60" y1="0" x2="30" y2="40" stroke="#b9ff66" strokeWidth="1" />
+                                        <line x1="0" y1="0" x2="60" y2="0" stroke="#191a23" strokeWidth="2" />
+                                    </svg>
+                                </div>
+                                <p className={css.testimonname}>{t.name}</p>
+                                <p className={css.testimontext}>{t.job}</p>
+                            </div>
                         </SwiperSlide>
                 ))}
                 </Swiper>

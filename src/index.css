@@ -70,3 +70,46 @@ button {
   outline-offset: -1px;
   background-color: white;
 }
+/*testimonials*/
+.swiper {
+  overflow: visible !important;
+}
+.swiper-pagination {
+  position: absolute !important;
+  top: 543px !important;
+}
+.swiper-pagination-bullet {
+  width: 14px !important;
+  height: 14px !important;
+  background-image: url("./assets/star-bullet-white.svg") !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  border-radius: 0 !important;
+  opacity: 1 !important;
+  margin: 0 9.5px !important;
+}
+.swiper-pagination-bullet-active {
+  background: #191a23 !important;
+  background-image: url("./assets/star-bullet-green.svg") !important;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: none !important; /* полностью скрыть дефолтную иконку */
+}
+.swiper-button-next {
+  background-image: url("./assets/arrow-right-white.svg") !important;
+  width: 24px !important;
+  height: 24px !important;
+  top: 550px !important;
+  right: 345px !important;
+  z-index: 10 !important;
+}
+.swiper-button-prev {
+  background-image: url("./assets/arrow-left-white.svg") !important;
+  width: 24px !important;
+  height: 24px !important;
+  top: 550px !important;
+  left: 345px !important;
+  z-index: 10 !important;
+}

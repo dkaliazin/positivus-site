@@ -34,4 +34,43 @@
 }
 .testimontext {
   color: white;
+  padding: 0;
+
+  margin: 0;
+
+  box-sizing: border-box;
+  max-width: 502px;
+}
+.testimondesc {
+  box-sizing: border-box;
+  padding-left: 72px;
+}
+.testimonname {
+  font-weight: 500;
+  font-size: 20px;
+  color: #b9ff66;
+}
+.testimonswiper {
+  padding-top: 84px !important;
+}
+.testimonwrapper {
+  display: flex;
+  align-items: center;
+}
+.swiperslide {
+  padding: 0 !important;
+  width: 700px !important;
+}
+.rectangle {
+  border: 1px solid #b9ff66;
+  border-radius: 45px;
+  display: inline-block;
+  padding: 52px 48px 80px;
+  position: relative;
+  margin-bottom: 48px;
+}
+.triangle {
+  position: absolute;
+  bottom: 60px;
+  left: 60px;
 }
