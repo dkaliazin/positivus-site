@@ -8,12 +8,12 @@ const ContactForm = () => {
     <section className={css.contactform} id="contactform">
       <div className={css.header}>
         <h2><span className={css.highlight}>Contact Us</span></h2>
-        <p>Connect with Us: Let’s Discuss Your Digital Marketing Needs</p>
+        <p className={css.headerparagraph}>Connect with Us: Let’s Discuss Your Digital Marketing Needs</p>
       </div>
-
-      <form className={css.form}>
+      <div className={css.formwrapper}>
+        <form className={css.formleft}>
         <div className={css.radioGroup}>
-          <label>
+          <label >
             <input
               type="radio"
               name="type"
@@ -23,7 +23,7 @@ const ContactForm = () => {
             />
             Say Hi
           </label>
-          <label>
+          <label >
             <input
               type="radio"
               name="type"
@@ -51,7 +51,8 @@ const ContactForm = () => {
         </label>
 
         <button type="submit" className={css.button}>Send Message</button>
-      </form>
+        </form>
+        </div>
     </section>
   );
 };

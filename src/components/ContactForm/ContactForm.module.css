@@ -1,25 +1,24 @@
 .contactform {
-  background: #f3f3f3;
-  border-radius: 45px;
-  padding: 60px;
-  max-width: 800px;
-  margin: 0;
-  margin-bottom: 140px;
 }
 
 .header {
   font-size: 24px;
   margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 80px;
 }
 
 .highlight {
   background-color: #b9ff66;
-  padding: 0 8px;
-  border-radius: 6px;
+  padding: 0 7px;
+  border-radius: 7px;
 }
-
-.header p {
-  font-size: 14px;
+.headerparagraph {
+  max-width: 323px;
+}
+.header {
   color: #333;
   margin-top: 10px;
 }
@@ -28,19 +27,44 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin-top: 30px;
+  background: #f3f3f3;
+  border-radius: 45px;
+  padding: 60px 100px 80px 100px;
+  max-width: 1240px;
+  height: 773px;
+  margin: 0;
+  margin-bottom: 140px;
 }
-
+.label {
+  border-radius: 14px;
+  padding: 18px 30px;
+  width: 556px;
+  height: 59px;
+}
 .radioGroup {
   display: flex;
   gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 input[type="radio"] {
   accent-color: #b9ff66;
   margin-right: 8px;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  display: flex;
 }
-
+.input,
+.textarea {
+  width: 100%;
+  padding: 18px 20px;
+  border-radius: 14px;
+  border: 1px solid #f3f3f3;
+  font-size: 14px;
+  font-family: inherit;
+}
 .label {
   display: flex;
   flex-direction: column;
@@ -57,7 +81,23 @@ input[type="radio"] {
   font-family: inherit;
   font-size: 14px;
 }
-
+.formleft {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 556px;
+}
+.formwrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f3f3f3;
+  border-radius: 45px;
+  padding: 60px 100px 80px 100px;
+  max-width: 1240px;
+  margin: 0 auto 140px;
+  position: relative;
+}
 .textarea {
   resize: none;
   min-height: 120px;
@@ -71,11 +111,17 @@ input[type="radio"] {
   line-height: 28px;
   padding: 20px 35px;
   background: #191a23;
-  max-width: 288px;
+
   border-radius: 14px;
   border: none;
   cursor: pointer;
   transition: background 0.3s ease;
+  margin-top: 20px;
+  padding: 20px 35px;
+  border-radius: 14px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 288px;
 }
 
 .button:hover {
