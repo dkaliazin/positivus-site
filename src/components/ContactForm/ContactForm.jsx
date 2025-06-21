@@ -13,7 +13,7 @@ const ContactForm = () => {
       <div className={css.formwrapper}>
         <form className={css.formleft}>
         <div className={css.radioGroup}>
-          <label >
+          <label className={css.radiobtn}>
             <input
               type="radio"
               name="type"
@@ -23,7 +23,7 @@ const ContactForm = () => {
             />
             Say Hi
           </label>
-          <label >
+          <label className={css.radiobtn}>
             <input
               type="radio"
               name="type"
@@ -34,7 +34,7 @@ const ContactForm = () => {
             Get a Quote
           </label>
         </div>
-
+        <div className={css.labelbox}>
         <label className={css.label}>
           Name
           <input type="text" name="name" placeholder="Name" className={css.input} required />
@@ -49,7 +49,7 @@ const ContactForm = () => {
           Message*
           <textarea name="message" placeholder="Message" className={css.textarea} required />
         </label>
-
+        </div>
         <button type="submit" className={css.button}>Send Message</button>
         </form>
         </div>
