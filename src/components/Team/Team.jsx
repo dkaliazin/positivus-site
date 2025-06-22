@@ -1,8 +1,9 @@
 import css from './Team.module.css';
 import { FaLinkedin } from "react-icons/fa6";
 import { useEffect, useState } from "react";
-import axios from "axios";
-import mask from '../../assets/maskShape.svg';
+import teamphoto1 from "../../assets/team-photo-1.jpg";
+
+
 const Team = () => {
     return (
         <section className={css.team} id="team">
@@ -15,7 +16,9 @@ const Team = () => {
             <div className={css.teambox}>
                 <div className={css.teamboxitem}>
                     <div className={css.teamboxitemtop}>
-                        <picture></picture>
+                        <div className={css.avatarwrapper}>
+                            <img src={teamphoto1} alt="John Smith" className={css.teamphoto}/>
+                        </div>
                         <div>
                             <h4>John Smith</h4>
                             <p>CEO and Founder</p>

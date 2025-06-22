@@ -39,3 +39,9 @@
 .teamboxitemtop {
   display: flex;
 }
+.avatarwrapper {
+  width: 102px;
+  height: 120px;
+  border-radius: 20px;
+  overflow: hidden;
+}
