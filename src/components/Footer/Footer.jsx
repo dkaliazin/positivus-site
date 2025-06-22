@@ -5,7 +5,7 @@ import { FaTwitterSquare } from "react-icons/fa";
 import logowhite from '../../assets/logo-white.svg'
 const Footer = () => {
     return (
-        <section className={css.footer} id="footer">
+        <footer className={css.footer} id="footer">
             <div className={css.header}>
                  <img src={logowhite} alt="positivus logo" className={css.logo}></img>
                 <h1 className={css.title}>Positivius</h1>
@@ -84,7 +84,7 @@ const Footer = () => {
                 <p className={css.addresstext}>© 2023 Positivus. All Rights Reserved.</p>
                 <a href="https://www.privacypolicygenerator.info/" className={css.privpollink}>Privacy Policy</a>
             </div>
-        </section>
+        </footer>
     )
 }
 export default Footer;
