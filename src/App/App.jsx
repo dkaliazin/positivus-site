@@ -6,13 +6,14 @@ import Pricing from '../pages/Pricing/Pricing';
 import Blog from '../pages/Blog/Blog';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
-
+import Positivus from '../pages/Positivus/Positivus';
 function App() {
   return (
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<About />} />
+        <Route path="/" element={<Positivus/>}/>
+        <Route path="/about-us" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/use-cases" element={<UseCases />} />
         <Route path="/pricing" element={<Pricing />} />

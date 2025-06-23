@@ -5,13 +5,17 @@ import OurWorkingProcess from '../../components/OurWorkingProcess/OurWorkingProc
 import Team from '../../components/Team/Team'
 import Testimonials from '../../components/Testimonials/Testimonials'
 import ContactForm from '../../components/ContactForm/ContactForm';
-const About = () => {
-    return (
-        <>
-      
-        </>
-    )
-    ;
+
+const Positivus = () => {
+    return (<>
+        <Hero />
+        <Services/>
+        <CaseStudies />
+        <OurWorkingProcess />
+        <Team />
+        <Testimonials />
+        <ContactForm />
+    </>);
   };
   
-  export default About;
+  export default Positivus;

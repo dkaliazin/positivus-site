@@ -17,6 +17,9 @@
   display: flex;
   align-items: center;
 }
+.logolink {
+  display: flex;
+}
 .logo {
   margin: 0;
   margin-right: 11px;

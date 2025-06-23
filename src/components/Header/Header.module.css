@@ -10,6 +10,10 @@
 .box {
   display: flex;
 }
+.logolink {
+  display: flex;
+  text-decoration: none;
+}
 .headerpositivus {
   margin: 0 180px 0 13px;
   font-size: 60px;
@@ -30,6 +34,7 @@
   margin: 0;
 }
 .navitemlink {
+  text-decoration: none;
 }
 .headerbtn {
   padding: 0 35px;

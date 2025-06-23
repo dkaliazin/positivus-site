@@ -7,27 +7,29 @@ const Footer = () => {
     return (
         <footer className={css.footer} id="footer">
             <div className={css.header}>
-                 <img src={logowhite} alt="positivus logo" className={css.logo}></img>
-                <h1 className={css.title}>Positivius</h1>
+                <a href="/" className={css.logolink}>
+                    <img src={logowhite} alt="positivus logo" className={css.logo}></img>               
+                    <h1 className={css.title}>Positivius</h1>
+                </a>
                 <nav className={css.anchorlist}>
                     <li className={css.anchorlistitem}>
-                        <a href="" className={css.anchorlistitemlink}>About us</a>
+                        <a href="/about-us" className={css.anchorlistitemlink}>About us</a>
 
                     </li>
                     <li className={css.anchorlistitem}>
-                        <a href="" className={css.anchorlistitemlink}>Services</a>
+                        <a href="/services" className={css.anchorlistitemlink}>Services</a>
 
                     </li>
                     <li className={css.anchorlistitem}>
-                        <a href="" className={css.anchorlistitemlink}>Use Cases</a>
+                        <a href="/use-cases" className={css.anchorlistitemlink}>Use Cases</a>
 
                     </li>
                     <li className={css.anchorlistitem}>
-                        <a href="" className={css.anchorlistitemlink}>Pricing</a>
+                        <a href="/pricing" className={css.anchorlistitemlink}>Pricing</a>
 
                     </li>
                     <li className={css.anchorlistitem}>
-                        <a href="" className={css.anchorlistitemlink}>Blog</a>
+                        <a href="/blog" className={css.anchorlistitemlink}>Blog</a>
                     </li>    
                 </nav>
                 <ul className={css.socials}>
