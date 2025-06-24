@@ -6,3 +6,8 @@
   display: flex;
   gap: 90px;
 }
+.textbox {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}

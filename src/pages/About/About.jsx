@@ -7,6 +7,7 @@ import Testimonials from '../../components/Testimonials/Testimonials'
 import ContactForm from '../../components/ContactForm/ContactForm';
 import InfoSection from '../../components/InfoSection/InfoSection';
 import heroAbout from '../../assets/hero-about-us.PNG'
+import OurImpact from '../../components/OurImpact/OurImpact';
 const About = () => {
     return (
         <>
@@ -16,6 +17,7 @@ const About = () => {
                 title={"Together for Success"}
                 text={"At Positivus, we help businesses grow by combining creativity, innovation, and data-driven strategies. Together, we build a future of shared success."}
             />
+            <OurImpact/>
         </>
     )
     ;
