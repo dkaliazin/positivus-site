@@ -1,0 +1,60 @@
+.ourjourney {
+  position: relative;
+}
+.journey {
+}
+.journeyheader {
+  display: flex;
+  margin-bottom: 85px;
+}
+.highlight {
+  background-color: #b9ff66;
+  padding: 0 7px;
+  margin-right: 45px;
+  border-radius: 7px;
+}
+.journeylist {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.journeyitembox {
+  display: flex;
+  gap: 45px;
+}
+.journeyitemboxright {
+  display: flex;
+  gap: 45px;
+  justify-content: right;
+}
+.journeyitem {
+  display: flex;
+  gap: 60px;
+  width: 600px;
+  height: 250px;
+  background-color: #191919;
+  border-radius: 30px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+}
+.journeyitemtextbox {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.journeyitemtitle,
+.journeyitemtext {
+  color: white;
+}
+.arrowline {
+  position: absolute;
+  top: 15%;
+  left: 17.4%;
+}
