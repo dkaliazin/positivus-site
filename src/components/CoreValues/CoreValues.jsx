@@ -18,7 +18,7 @@ const CoreValues = ({coreValuesList, headertitle, headertext}) => {
                         {img && <img src={img} alt={alt} className={css.image} />}
                     </li>
   ))}
-</ul>
+            </ul>
         </section>
     )
 }

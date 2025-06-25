@@ -11,6 +11,8 @@ import OurImpact from '../../components/OurImpact/OurImpact';
 import OurJourney from '../../components/OurJourney/OurJourney';
 import CoreValues from '../../components/CoreValues/CoreValues';
 import coreValuesList from '../../assets/coreValuesList';
+import Quote from '../../components/Quote/Quote';
+import quoteImg from '../../assets/quote-img.png';
 const About = () => {
     return (
         <>
@@ -31,6 +33,12 @@ const About = () => {
                       are our core values:
                     </>
                   }
+            />
+            <Quote
+                img={quoteImg}
+                alt={"Quote Image"}
+                quote={ "“At Positivus, we believe that success is built on innovation, collaboration, and a relentless focus on delivering results.”"}
+                author={"— John Smith, Founder of Positivus"}
             />
         </>
     )

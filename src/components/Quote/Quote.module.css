@@ -1,0 +1,26 @@
+.quotesection {
+  margin-bottom: 140px;
+  border-radius: 45px;
+  padding: 60px 70px;
+  background-color: #191a23;
+  display: flex;
+  position: relative;
+  justify-content: right;
+  gap: 40px;
+}
+.img {
+  position: absolute;
+  top: -60px;
+  left: 60px;
+}
+.quotebox {
+  width: 700px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.quote,
+.author {
+  color: white;
+}
