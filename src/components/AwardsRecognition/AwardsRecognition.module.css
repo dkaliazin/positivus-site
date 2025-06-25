@@ -1,0 +1,38 @@
+.awardssection {
+  margin-bottom: 140px;
+}
+.headerbox {
+  display: flex;
+  gap: 45px;
+  margin-bottom: 85px;
+}
+.highlight {
+  background-color: #b9ff66;
+  border-radius: 7px;
+  padding: 0 7px;
+}
+.list {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+  margin: 0;
+  padding: 0;
+}
+.imgbox {
+  height: 100px;
+  width: 100px;
+  display: flex;
+
+  justify-content: center;
+}
+.listitem {
+  max-width: 400px;
+  border-radius: 45px;
+  overflow: hidden;
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  padding: 70px 40px;
+}
