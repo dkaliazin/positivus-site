@@ -1,6 +1,7 @@
 import css from './OurJourney.module.css';
 import greenStar from '../../assets/star-bullet-green.svg';
 import arrowLine from '../../assets/arrow-line.svg';
+import bgImg from '../../assets/journey-bg-img.svg';
 const OurJourney = () => {
     return (
         <section className={css.ourjourney}>
@@ -50,7 +51,9 @@ const OurJourney = () => {
                     </li>
                 </div>
             </ul>
-            <img src={arrowLine} alt="" className={css.arrowline} />
+            <img src={arrowLine} alt="Journey line" className={css.arrowline} />
+            <img src={bgImg} alt="Background image" className={css.bgimgtop} />
+            <img src={bgImg} alt="Background image" className={css.bgimgbottom} />
         </section>
     )
 }

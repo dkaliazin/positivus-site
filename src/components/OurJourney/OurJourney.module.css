@@ -1,5 +1,6 @@
 .ourjourney {
   position: relative;
+  margin-bottom: 140px;
 }
 .journey {
 }
@@ -57,4 +58,14 @@
   position: absolute;
   top: 15%;
   left: 17.4%;
+}
+.bgimgtop {
+  position: absolute;
+  top: 30%;
+  right: 80%;
+}
+.bgimgbottom {
+  position: absolute;
+  bottom: 30%;
+  left: 80%;
 }
