@@ -1,0 +1,36 @@
+.section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #191a23;
+  border-radius: 45px;
+  padding: 40px;
+  box-sizing: border-box;
+  margin-bottom: 140px;
+}
+.titlebox {
+  display: flex;
+  gap: 45px;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+}
+.highlight {
+  background-color: #b9ff66;
+  padding: 0 7px;
+  border-radius: 7px;
+  display: inline-block;
+}
+.textbox {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  max-width: 950px;
+}
+.text {
+  color: white;
+}
+.btn {
+  background-color: white;
+  outline: none;
+}
