@@ -22,7 +22,7 @@
   padding: 0;
   list-style: none;
 }
-.journeyitembox {
+.journeyitemboxleft {
   display: flex;
   gap: 45px;
 }

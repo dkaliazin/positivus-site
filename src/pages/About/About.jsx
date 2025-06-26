@@ -17,6 +17,9 @@ import AwardsRecognition from '../../components/AwardsRecognition/AwardsRecognit
 import awardsRecognitionList from '../../assets/awardsRecognitionList';
 import JoinOurTeam from '../../components/JoinOurTeam/JoinOurTeam';
 import joinOurTeamImg from '../../assets/join-our-team-img.png';
+import impactStats from '../../assets/impactStats';
+import impactStatsLast from '../../assets/impactStatsLast';
+import journeyList from '../../assets/journeyList';
 const About = () => {
     return (
         <>
@@ -26,8 +29,21 @@ const About = () => {
                 title={"Together for Success"}
                 text={"At Positivus, we help businesses grow by combining creativity, innovation, and data-driven strategies. Together, we build a future of shared success."}
             />
-            <OurImpact />
-            <OurJourney />
+            <OurImpact
+                impactStats={impactStats}
+                impactStatsLast={impactStatsLast}
+                headertitle={"Our Impact in Numbers"}
+                headertext={<>A snapshot of the milestones and achievements<br />
+                    that drive our success</>}
+            />
+            <OurJourney
+                headertitle={"Our Journey"}
+                headertext={<>
+                From humble beginnings to industry leaders, discover how Positivus has <br />
+                                    evolved to drive success for businesses worldwide.
+                </>}
+                journeyList={journeyList}
+            />
             <CoreValues
                 coreValuesList={coreValuesList}
                 headertitle={"Core Values"}

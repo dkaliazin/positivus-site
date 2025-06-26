@@ -1,19 +1,10 @@
 import css from './OurImpact.module.css';
-const impactStats = [
-    { id: 1, value: '8+',    label: 'Years of Experience' },
-    { id: 2, value: '50+',   label: 'Experts' },
-    { id: 3, value: '100+',  label: 'Successful Campaigns' },
-    { id: 4, value: '20+',   label: 'Industry Awards' },
-    
-];
-const impactStatsLast = [{ id: 5, value: '500%', label: 'ROI for our clients' }];
-const OurImpact = () => {
+const OurImpact = ({impactStats, impactStatsLast, headertitle, headertext}) => {
     return (
         <section className={css.ourimpact}>
             <div className={css.ourimpactheader}>
-                <h2 className={css.title}>Our Impact in Numbers</h2>
-                <p>A snapshot of the milestones and achievements<br />
-                    that drive our success</p>
+                <h2 className={css.title}>{headertitle}</h2>
+                <p>{headertext}</p>
             </div>
             <ul className={css.numbers}>
                 {impactStats.map(({ id, value, label }) => (
@@ -35,9 +26,7 @@ const OurImpact = () => {
                         </div>
                     </li>
                 ))}
-            </ul>
-            
-
+            </ul>        
         </section>
     )
 }
