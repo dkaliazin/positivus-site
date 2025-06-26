@@ -18,12 +18,8 @@
   margin: 0;
   padding: 0;
 }
-.imgbox {
-  height: 100px;
-  width: 100px;
-  display: flex;
-
-  justify-content: center;
+.img {
+  padding: 20px;
 }
 .listitem {
   max-width: 400px;

@@ -7,8 +7,8 @@ const awardsRecognitionList = [
   {
     id: 1,
     img: awardSmallBiz,
-    alt: 'Best Small Business Digital Marketing Agency badge',
-    title: 'Best Small Business Digital Marketing Agency of the Year',
+    alt: 'Best Small Business Digital',
+    title: 'Best Small Business Digital',
     text:
       'Celebrating our success in delivering innovative strategies and measurable results for small-business clients.',
   },

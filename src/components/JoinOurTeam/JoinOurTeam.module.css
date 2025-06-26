@@ -1,0 +1,25 @@
+.joinourteam {
+  background-color: #b9ff66;
+  padding: 50px;
+  box-shadow: 0px 5px 0px #191a23;
+  border-radius: 45px;
+  outline: 1px #191a23 solid;
+  outline-offset: -1px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 140px;
+}
+.textbox {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.btn {
+  outline: none;
+  background-color: #191a23;
+  color: white;
+  max-width: 300px;
+}

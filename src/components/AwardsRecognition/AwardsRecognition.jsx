@@ -9,9 +9,8 @@ const AwardsRecognition = ({ headertitle, headertext, awardsRecognitionList }) =
             <ul className={css.list}>
                 {awardsRecognitionList.map(({id, img, alt, title, text}) => (
                     <li key={id} className={css.listitem}>
-                        <div className={css.imgbox}>
-                            <img src={img} alt={alt} />
-                        </div>
+                        <img src={img} alt={alt} className={css.img} />
+                        
                         <h4>{title}</h4>
                         <p>{text}</p>
                     </li>

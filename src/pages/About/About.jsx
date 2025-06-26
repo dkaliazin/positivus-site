@@ -15,6 +15,8 @@ import Quote from '../../components/Quote/Quote';
 import quoteImg from '../../assets/quote-img.png';
 import AwardsRecognition from '../../components/AwardsRecognition/AwardsRecognition';
 import awardsRecognitionList from '../../assets/awardsRecognitionList';
+import JoinOurTeam from '../../components/JoinOurTeam/JoinOurTeam';
+import joinOurTeamImg from '../../assets/join-our-team-img.png';
 const About = () => {
     return (
         <>
@@ -47,6 +49,15 @@ const About = () => {
                 headertext={<>At Positivus, our commitment to excellence has been recognized<br/>
                  by industry leaders. Here are some of our proudest achievements:</>}
                 awardsRecognitionList={awardsRecognitionList}
+            />
+            <JoinOurTeam
+                img={joinOurTeamImg}
+                alt={"Join our team image"}
+                title={"Join Our Team"}
+                text={<>At Positivus, we thrive on innovation and collaboration. We’re always<br />
+                looking for passionate individuals to join our team and help<br />
+                businesses grow. Ready to make an impact?</>}
+                btn={"Explore Careers"}
             />
         </>
     )
