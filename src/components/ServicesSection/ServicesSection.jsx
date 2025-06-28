@@ -1,4 +1,4 @@
-import css from './Services.module.css';
+import css from './ServicesSection.module.css';
 import magnifImage from '../../assets/tokyo-magnifier-web-search-with-elements 2.png';
 import browserImage from '../../assets/tokyo-browser-window-with-emoticon-likes-and-stars-around 2.png';
 import windowsImage from '../../assets/tokyo-many-browser-windows-with-different-information 1.png';
@@ -6,7 +6,7 @@ import messageImage from '../../assets/tokyo-sending-messages-from-one-place-to-
 import selectImage from '../../assets/tokyo-selecting-a-value-in-the-browser-window 1.png';
 import volumetricImage from '../../assets/tokyo-volumetric-analytics-of-different-types-in-web-browsers 2.png';
 import { BiRightTopArrowCircle } from "react-icons/bi";
-const Services = () => {
+const ServicesSection = () => {
     return (
         <section className={css.services} id="services">
             <div className={css.headerbox}>
@@ -120,4 +120,4 @@ const Services = () => {
         </section>
     )
 }
-export default Services;
+export default ServicesSection;

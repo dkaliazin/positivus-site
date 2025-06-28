@@ -1,0 +1,46 @@
+.section {
+  padding: 0;
+  margin-bottom: 140px;
+}
+.header {
+  display: flex;
+  gap: 45px;
+  margin-bottom: 85px;
+}
+.highlight {
+  background-color: #b9ff66;
+  border-radius: 7px;
+  padding: 0 7px;
+}
+.headertext {
+  max-width: 500px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  margin: 0;
+  padding: 0;
+}
+.item {
+  padding: 60px 40px;
+  background-color: #f3f3f3;
+  border-radius: 45px;
+  display: flex;
+  gap: 60px;
+  position: relative;
+}
+.icon {
+  height: 150px;
+}
+.number {
+  color: #b9ff66;
+  position: absolute;
+  top: 90px;
+  left: 78px;
+}
+.textbox {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

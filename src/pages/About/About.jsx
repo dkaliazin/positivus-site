@@ -1,5 +1,5 @@
 import Hero from '../../components/Hero/Hero'
-import Services from '../../components/Services/Services';
+import Services from '../../components/ServicesSection/ServicesSection';
 import CaseStudies from '../../components/CaseStudies/CaseStudies'
 import OurWorkingProcess from '../../components/OurWorkingProcess/OurWorkingProcess'
 import Team from '../../components/Team/Team'

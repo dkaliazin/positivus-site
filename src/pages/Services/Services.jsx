@@ -2,6 +2,8 @@ import InfoSection from "../../components/InfoSection/InfoSection";
 import heroServices from '../../assets/hero-services.png';
 import greenStar from '../../assets/star-bullet-green.svg'
 import SearchEngine from "../../components/SearchEngine/SearchEngine";
+import HowWeWork from "../../components/HowWeWork/HowWeWork";
+import howWeWorkList from "../../assets/howWeWorkList";
 const Services = () => {
     return (<>
       <InfoSection
@@ -22,6 +24,11 @@ const Services = () => {
           Google. By optimizing yourcontent and site structure, we help your business rank
           higher in search results, driving more organic traffic and potential customers.</>}
         btn={'Boost My Rankings'}
+      />
+      <HowWeWork
+        headertitle={'How We Work: SEO Process'}
+        headertext={'Our step-by-step SEO process ensures your website ranks higher, attracts more traffic, and drives lasting results.'}
+          howWeWorkList={howWeWorkList}
       />
     </>);
     };
