@@ -12,6 +12,7 @@ import heroNetflix from '../../assets/heroNetflix.svg';
 import heroNotion from '../../assets/heroNotion.svg';
 import heroZoom from '../../assets/heroZoom.svg';
 import ServicesSection from '../../components/ServicesSection/ServicesSection';
+import servicesData from '../../assets/servicesDataHome';
 const Positivus = () => {
     return (<>
         <Hero
@@ -34,7 +35,11 @@ const Positivus = () => {
             altZoom={"Icon Zoom"}
 
         />
-        <ServicesSection/>
+        <ServicesSection
+            headertitle={'Services'}
+            headertext={'At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:'}
+            servicesData={servicesData}
+        />
         <CaseStudies />
         <OurWorkingProcess />
         <Team />
