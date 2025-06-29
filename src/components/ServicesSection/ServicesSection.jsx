@@ -1,4 +1,5 @@
 import css from './ServicesSection.module.css';
+import React from 'react';
 import { BiRightTopArrowCircle } from "react-icons/bi";
 const ServicesSection = ({headertitle, headertext, servicesData}) => {
     return (
@@ -20,13 +21,13 @@ const ServicesSection = ({headertitle, headertext, servicesData}) => {
                     <li key={id} className={`${css.servicesitem} ${css[bgClass]}`}>
                         <div className={css.servicesitembox}>
                             <h3>
-                            {titleLines.map((line, i) => (
-                                    <>
-                                        <span key={i} className={`${css.servicesheader} ${css[titleColor]}`}>
+                            {titleLines.map((line, idx) => (
+                                    <React.Fragment key={`${id}-${idx}`}>
+                                        <span  className={`${css.servicesheader} ${css[titleColor]}`}>
                                             {line}
                                         </span>
-                                         {i == 0 && <br />}
-                                    </>
+                                         {idx == 0 && <br />}
+                                    </React.Fragment>
                                 ))}
                             </h3>
                             <a href='/services' className={`${css.servicesitemlink} ${css[textColor]}`}>

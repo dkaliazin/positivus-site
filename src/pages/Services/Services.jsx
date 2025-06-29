@@ -28,7 +28,7 @@ const Services = () => {
       <HowWeWork
         headertitle={'How We Work: SEO Process'}
         headertext={'Our step-by-step SEO process ensures your website ranks higher, attracts more traffic, and drives lasting results.'}
-          howWeWorkList={howWeWorkList}
+        howWeWorkList={howWeWorkList}
       />
     </>);
     };

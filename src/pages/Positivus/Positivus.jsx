@@ -1,6 +1,6 @@
 import Hero from '../../components/Hero/Hero'
 import CaseStudies from '../../components/CaseStudies/CaseStudies'
-import OurWorkingProcess from '../../components/OurWorkingProcess/OurWorkingProcess'
+import DropDownList from '../../components/DropDownList/DropDownList'
 import Team from '../../components/Team/Team'
 import Testimonials from '../../components/Testimonials/Testimonials'
 import ContactForm from '../../components/ContactForm/ContactForm';
@@ -13,6 +13,10 @@ import heroNotion from '../../assets/heroNotion.svg';
 import heroZoom from '../../assets/heroZoom.svg';
 import ServicesSection from '../../components/ServicesSection/ServicesSection';
 import servicesData from '../../assets/servicesDataHome';
+import ProposalSection from '../../components/ProposalSection/ProposalSection'
+import proposalimage from '../../assets/proposalimage.png'
+import { caseStudiesData } from '../../assets/caseStudiesData'
+import stepsOurProcess from '../../assets/stepsOurProcess'
 const Positivus = () => {
     return (<>
         <Hero
@@ -40,8 +44,23 @@ const Positivus = () => {
             headertext={'At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:'}
             servicesData={servicesData}
         />
-        <CaseStudies />
-        <OurWorkingProcess />
+        <ProposalSection
+            title={'Let’s make things happen'}
+            text={'Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.'}
+            link={'Get your free proposal'}
+            img={proposalimage}
+            alt={'Proposal Image'}
+        />
+        <CaseStudies
+            headertitle={'Case Studies'}
+            headertext={'Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies'}
+            listData={caseStudiesData}
+        />
+        <DropDownList
+            headertitle={'Our Working Process '}
+            headertext={'Step-by-Step Guide to Achieving Your Business Goals'}
+            steps={stepsOurProcess}
+        />
         <Team />
         <Testimonials />
         <ContactForm />

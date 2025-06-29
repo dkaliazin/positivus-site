@@ -1,0 +1,45 @@
+.proposal {
+  display: flex;
+  position: relative;
+  gap: 186px;
+
+  background-color: #f3f3f3;
+  padding: 60px;
+  border-radius: 45px;
+  margin-bottom: 178px;
+}
+.proposalbox {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+.proposalheader {
+}
+.proposaltext {
+}
+.proposallink {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: 28px;
+  word-wrap: break-word;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #191a23;
+  max-width: 288px;
+  border-radius: 14px;
+}
+.proposalimg {
+  position: absolute;
+  bottom: -15px;
+  right: 134px;
+  width: 359px;
+  height: 400px;
+}

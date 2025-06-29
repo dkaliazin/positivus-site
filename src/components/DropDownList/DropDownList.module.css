@@ -21,6 +21,7 @@
   gap: 30px;
   flex-direction: column;
   margin-bottom: 140px;
+  list-style: none;
 }
 .processboxitem {
   width: 1234px;
