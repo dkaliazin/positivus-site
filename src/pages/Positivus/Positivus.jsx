@@ -17,6 +17,8 @@ import ProposalSection from '../../components/ProposalSection/ProposalSection'
 import proposalimage from '../../assets/proposalimage.png'
 import { caseStudiesData } from '../../assets/caseStudiesData'
 import stepsOurProcess from '../../assets/stepsOurProcess'
+import teamData from '../../assets/teamData'
+import testimonialsBase from '../../assets/testimonialsBase'
 const Positivus = () => {
     return (<>
         <Hero
@@ -61,9 +63,20 @@ const Positivus = () => {
             headertext={'Step-by-Step Guide to Achieving Your Business Goals'}
             steps={stepsOurProcess}
         />
-        <Team />
-        <Testimonials />
-        <ContactForm />
+        <Team
+            headertitle={'Team'}
+            headertext={<>Meet the skilled and experienced team behind our <br/>successful digital marketing strategies</>}
+            teamData={teamData}
+        />
+        <Testimonials
+            headertitle={'Testimonials'}
+            headertext={'Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services'}
+            testimonialsBase={testimonialsBase}
+        />
+        <ContactForm
+            headertitle={'Contact Us'}
+            headertext={'Connect with Us: Let’s Discuss Your Digital Marketing Needs'}
+        />
     </>);
   };
   
