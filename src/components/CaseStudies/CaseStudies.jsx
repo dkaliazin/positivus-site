@@ -10,9 +10,10 @@ const CaseStudies = ({headertitle, headertext, listData}) => {
             </div>
             
             <ul className={css.casebox}>
-                {listData.map(({ id, text }) => (
+                {listData.map(({ id, text, title }) => (
                     <React.Fragment key={id}>
                         <li className={css.caseboxitem}>
+                            {title && <h3 className={css.title}>{title}</h3>}
                             <p className={css.caseboxitemtext}>{text}</p>
                             <a href="/use-cases" className={css.caseboxitemlink}>
                                 Learn more

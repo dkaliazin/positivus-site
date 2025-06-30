@@ -4,6 +4,8 @@ import greenStar from '../../assets/star-bullet-green.svg'
 import SearchEngine from "../../components/SearchEngine/SearchEngine";
 import HowWeWork from "../../components/HowWeWork/HowWeWork";
 import howWeWorkList from "../../assets/howWeWorkList";
+import CaseStudies from '../../components/CaseStudies/CaseStudies';
+import { useCasesData } from "../../assets/useCasesData";
 const Services = () => {
     return (<>
       <InfoSection
@@ -19,7 +21,7 @@ const Services = () => {
       <SearchEngine
         icon={greenStar}
         alt={'Star icon'}
-        title={<>Search engine<br/>optimization</>}
+        titleLines={['Search engine','optimization']}
         text={<>SEO is the process of improving your website’s visibility on search engines like
           Google. By optimizing yourcontent and site structure, we help your business rank
           higher in search results, driving more organic traffic and potential customers.</>}
@@ -29,6 +31,11 @@ const Services = () => {
         headertitle={'How We Work: SEO Process'}
         headertext={'Our step-by-step SEO process ensures your website ranks higher, attracts more traffic, and drives lasting results.'}
         howWeWorkList={howWeWorkList}
+      />
+      <CaseStudies
+        headertitle={'Use Cases'}
+        headertext={'Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies'}
+        listData={useCasesData}
       />
     </>);
     };

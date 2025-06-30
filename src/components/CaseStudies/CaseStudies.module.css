@@ -9,6 +9,7 @@
   margin-right: 47px;
   background-color: #b9ff66;
   border-radius: 7px;
+  padding: 0 7px;
 }
 .caseheaderboxtext {
   max-width: 580px;
@@ -21,6 +22,9 @@
   background-color: #191a23;
   margin-bottom: 140px;
   list-style: none;
+}
+.title {
+  color: white;
 }
 .caseboxitem {
 }
@@ -41,7 +45,7 @@
 }
 .caseboxline {
   width: 0px;
-  height: 186px;
+  max-height: 100%;
   transform-origin: top left;
   outline: 0.5px white solid;
   outline-offset: -0.5px;
