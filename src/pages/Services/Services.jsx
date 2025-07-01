@@ -6,6 +6,8 @@ import HowWeWork from "../../components/HowWeWork/HowWeWork";
 import howWeWorkList from "../../assets/howWeWorkList";
 import CaseStudies from '../../components/CaseStudies/CaseStudies';
 import { useCasesData } from "../../assets/useCasesData";
+import { otherServices } from "../../assets/otherServicesData";
+import ServicesSection from '../../components/ServicesSection/ServicesSection'
 const Services = () => {
     return (<>
       <InfoSection
@@ -37,6 +39,12 @@ const Services = () => {
         headertext={'Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies'}
         listData={useCasesData}
       />
+      <ServicesSection
+        headertitle={'Our Other Services'}
+        headertext={'At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:'}
+        servicesData={otherServices}
+      />
+        
     </>);
     };
   
