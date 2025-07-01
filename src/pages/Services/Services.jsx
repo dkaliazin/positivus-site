@@ -8,6 +8,8 @@ import CaseStudies from '../../components/CaseStudies/CaseStudies';
 import { useCasesData } from "../../assets/useCasesData";
 import { otherServices } from "../../assets/otherServicesData";
 import ServicesSection from '../../components/ServicesSection/ServicesSection'
+import SEOJourney from "../../components/SEOJourney/SEOJourney";
+import seoImg from '../../assets/seo-image.png'
 const Services = () => {
     return (<>
       <InfoSection
@@ -44,7 +46,14 @@ const Services = () => {
         headertext={'At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:'}
         servicesData={otherServices}
       />
-        
+      <SEOJourney 
+        title={'Ready to Elevate Your Search Rankings?'}
+        text={'Our proven SEO strategies are designed to help your business achieve long-lasting success in search engines. Whether you want to boost organic traffic, improve keyword rankings, or increase conversions, we’re here to make it happen.'}
+        boldtext={'Let’s work together to grow your online presence.'}
+        btn={'Start My SEO Journey'}
+        src={seoImg}
+        alt='SEO image'
+      />
     </>);
     };
   
