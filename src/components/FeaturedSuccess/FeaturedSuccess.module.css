@@ -1,0 +1,53 @@
+.success {
+  background-color: #191a23;
+  border-radius: 45px;
+  display: flex;
+  gap: 90px;
+  padding: 60px;
+  margin-bottom: 140px;
+}
+.headerbox {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 700px;
+}
+.highlight {
+  background-color: #b9ff66;
+  border-radius: 7px;
+  padding: 0 7px;
+  box-sizing: border-box;
+}
+.textwhite {
+  color: white;
+}
+.textgreen {
+  color: #b9ff66;
+}
+.link {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  text-decoration: none;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+}
+.list {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(2, 1fr);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.listitem {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 45px;
+  padding: 40px;
+  align-items: center;
+  justify-content: center;
+}

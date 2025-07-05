@@ -36,10 +36,18 @@
   max-width: 288px;
   border-radius: 14px;
 }
+.proposalpicture {
+}
 .proposalimg {
   position: absolute;
-  bottom: -15px;
-  right: 134px;
+  bottom: 8%;
+  left: 65%;
   width: 359px;
-  height: 400px;
+  height: 100%;
+}
+.grey {
+  background-color: #f3f3f3;
+}
+.green {
+  background-color: #b9ff66;
 }

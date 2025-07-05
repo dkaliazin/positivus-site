@@ -52,6 +52,7 @@ const Positivus = () => {
             link={'Get your free proposal'}
             img={proposalimage}
             alt={'Proposal Image'}
+            bg={'grey'}
         />
         <CaseStudies
             headertitle={'Case Studies'}
