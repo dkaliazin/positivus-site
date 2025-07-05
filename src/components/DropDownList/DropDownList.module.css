@@ -22,6 +22,8 @@
   flex-direction: column;
   margin-bottom: 140px;
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .processboxitem {
   padding-left: 60px;
@@ -68,4 +70,7 @@
   background-color: #191a23;
   margin: 0;
   margin-bottom: 30px;
+}
+.none {
+  display: none;
 }

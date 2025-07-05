@@ -20,9 +20,11 @@ const DropDownList = ({headertitle, headertext, steps}) => {
                         className={`${css.processboxitem} ${activeIndex === id ? css.activeboxitem : ''}`}
                          >
                         <div className={`${css.processboxitemheader} ${activeIndex === id? css.activeitemheader:''}`}>
-                            <h1 className={css.processnumber}>{number}</h1>
+                            <h1 className={`${css.processnumber} ${css[number ===""? "none":""]}`}>{ number }</h1>
                             <div className={css.processtitlebox}>
-                                <h3 className={css.title}>{title}</h3>
+                                <h3 className={`${css.title}`}>
+                                    {title}
+                                </h3>
                                 <div onClick={() => handleToggle(id)} style={{ cursor: 'pointer' }}>
                                     {activeIndex === id ? (
                                      <CiCircleMinus className={css.iconcircle} />

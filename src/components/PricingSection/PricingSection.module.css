@@ -1,0 +1,11 @@
+.header {
+  margin-bottom: 85px;
+}
+.headertext {
+  width: 450px;
+}
+.pricelist {
+  display: flex;
+  gap: 45px;
+  list-style: none;
+}
