@@ -69,6 +69,7 @@ button {
   outline: 1px #191a23 solid;
   outline-offset: -1px;
   background-color: white;
+  font-weight: 500;
 }
 ul {
   padding: 0;

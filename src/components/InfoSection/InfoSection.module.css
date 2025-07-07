@@ -11,3 +11,14 @@
   flex-direction: column;
   gap: 50px;
 }
+.none {
+  display: none;
+}
+.strat {
+  background-color: lightgray;
+  color: gray;
+  padding: 0 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  max-width: fit-content;
+}

@@ -25,13 +25,21 @@
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
   list-style: none;
   margin: 0;
 }
+.headertext {
+  max-width: 500px;
+}
 .griditem {
-  padding: 0;
+  padding: 20px;
   margin: 0;
+}
+.griditem:not(:nth-child(3n + 1)) {
+  border-left: 1px solid #191a23;
+}
+.griditem:not(:nth-child(-n + 3)) {
+  border-top: 1px solid #191a23;
 }
 .description {
 }

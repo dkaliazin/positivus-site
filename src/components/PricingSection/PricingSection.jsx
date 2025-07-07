@@ -2,7 +2,7 @@ import css from './PricingSection.module.css';
 import { IoIosCheckmarkCircle } from "react-icons/io";
 const PricingSection = ({headertitle, headertext, pricingData}) => {
     return (
-        <section>
+        <section className={css.section}>
             <div className={css.header}>
                 <h1>{headertitle}</h1>
                 <p className={css.headertext}>{headertext}</p>
@@ -12,28 +12,45 @@ const PricingSection = ({headertitle, headertext, pricingData}) => {
                     id,
                     name,
                     price,
+                    bg,
                     period,
                     popular,
                     buttonText,
                     quoteText,
                     features
                 }) => (
-                    <li key={id} className={css.listitem}>
+                    <li key={id} className={`${css.listitem} ${bg === 'black' ? css.bgblack : css.bgwhite}`}>
                         <div className={css.topbox}>
-                            <h3>{name}</h3>
-                            <h2>${price} <span className={css.period}>/{period}</span></h2>
+                            <h3 className={`${bg ==='black'? css.textwhite:''}`}>{name}</h3>
+                            <h2 className={`${bg ==='black'? css.textwhite:''}`}>${price} <span className={` ${css.period} ${bg ==='black'? css.textwhite:'' }`}>/{period}</span></h2>
                             {popular === true ? <p className={css.popular}>Popular</p>:''}
                         </div>
                         <div className={css.btnbox}>
-                            <button className={css.btnget}>{buttonText}</button>
-                            <button className={css.btnquote}>{quoteText}</button>
+                            <button
+                                className={`
+                                    ${css.btnget} 
+                                    ${bg === 'black' ?
+                                        `${css.bggreen} ${css.textblack}` : ''}`}>
+                                {buttonText}
+                            </button>
+                            <button
+                                className={`
+                                    ${css.btnquote} 
+                                ${bg === 'black' ?
+                                        `${css.bgblack} 
+                                        ${css.textwhite}
+                                        ${css.borderwhite}
+                                        ${css.outlinewhite}` : ''}`}>
+                                {quoteText}
+                            </button>
                         </div>
-                        <span className={css.border} />
+                        <span className={bg==='black'? css.borderwhite:css.border} />
                         <ul className={css.proslist}>
                             {features.map((feature, index) => (
                                 <li key={index} className={css.prositem}> 
-                                    <IoIosCheckmarkCircle className={css.icon} />
-                                    <p>{feature}</p>
+                                    <IoIosCheckmarkCircle size={20}
+                                        className={`${css.icon}`} />
+                                    <p className={`${bg ==='black'? css.textwhite:''}`}>{feature}</p>
                                 </li>
                             ))}
                         </ul>

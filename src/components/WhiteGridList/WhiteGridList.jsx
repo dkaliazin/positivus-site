@@ -5,7 +5,7 @@ const WhiteGridList = ({headertitle,headertext,whiteGridData}) => {
         <section className={css.section}>
             <div className={css.headerbox}>
                 <h2 className={css.highlight}>{headertitle}</h2>
-                <p>{headertext}</p>
+                <p className={css.headertext}>{headertext}</p>
             </div>
             <ul className={css.grid}>
                 {whiteGridData.map(({ id, title, description, linktext, link }) => (

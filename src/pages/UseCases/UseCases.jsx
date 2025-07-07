@@ -26,7 +26,7 @@ const UseCases = () => {
       />
       <WhiteGridList
         headertitle={'All Success Stories'}
-        headertext={<>Explore Real-Life Examples of Our Proven Digital Marketing<br/> Success through Our Case Studies</>}
+        headertext={<>Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies</>}
         whiteGridData={allSuccessData}
       />
       <Testimonials
