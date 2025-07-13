@@ -1,20 +1,23 @@
 import css from './Article.module.css';
-const Article = () => {
+const Article = ({avatar, altAvatar, headertext,headertitle}) => {
     return (
         <section className={css.article}>
             <div className={css.header}>
-                <div>
-                    <img src="" alt="" />
+                <div className={css.personbox}>
+                    <img src={avatar} alt={altAvatar} className={css.img} />
                     <div>
-                        <h4></h4>
-                        <p></p>
+                        <h4>{headertitle}</h4>
+                        <p>{headertext}</p>
                     </div>
                 </div>
-                <div>
-                    
-                    
-                </div>
+                    <div className={css.ticker}>
+                        <span>A</span>
+                        <span>A</span>
+                        <span>A</span>
+                    </div> 
+                
             </div>
+            <span className={css.border}/>
         </section>
     )
 }

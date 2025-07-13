@@ -2,6 +2,8 @@ import InfoSection from "../../components/InfoSection/InfoSection";
 import heroimg from '../../assets/heroimg.png'
 import WhiteGridList from "../../components/WhiteGridList/WhiteGridList";
 import { whiteGridBlogData } from "../../assets/whiteGridBlogData";
+import Article from "../../components/Article/Article";
+import avatar from '../../assets/blog-avatar.png';
 const Blog = () => {
   return (
     <>
@@ -12,6 +14,13 @@ const Blog = () => {
         strattext={'Marketing Strategies'}
         text={'PPC and organic marketing each offer unique benefits for driving traffic and growing your business. Discover which strategy aligns best with your goals and how to strike the perfect balance.'}
         title={'PPC vs. Organic Marketing: Which One Is Right for Your Business?'}
+      />
+      <Article
+        avatar={avatar}
+        altAvatar={"Sarah Kim's Avatar"}
+        headertitle={'Sarah Kim'}
+        headertext={'Content Creator'}
+        
       />
       <WhiteGridList
         headertitle={'Explore More Insights'}
