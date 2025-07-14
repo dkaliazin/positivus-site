@@ -17,7 +17,10 @@ const Article = ({avatar, altAvatar, headertext,headertitle}) => {
                     </div> 
                 
             </div>
-            <span className={css.border}/>
+            <span className={css.border} />
+            <div>
+                
+            </div>
         </section>
     )
 }

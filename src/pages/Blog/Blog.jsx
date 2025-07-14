@@ -4,6 +4,8 @@ import WhiteGridList from "../../components/WhiteGridList/WhiteGridList";
 import { whiteGridBlogData } from "../../assets/whiteGridBlogData";
 import Article from "../../components/Article/Article";
 import avatar from '../../assets/blog-avatar.png';
+import { articleData } from '../../assets/articleData';
+import { ppcStatsData } from "../../assets/ppcStatsData";
 const Blog = () => {
   return (
     <>
@@ -20,6 +22,8 @@ const Blog = () => {
         altAvatar={"Sarah Kim's Avatar"}
         headertitle={'Sarah Kim'}
         headertext={'Content Creator'}
+        articleData={articleData}
+        ppcStatsData={ppcStatsData}
         
       />
       <WhiteGridList
