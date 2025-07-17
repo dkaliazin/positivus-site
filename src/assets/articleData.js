@@ -1,4 +1,4 @@
-export const ppcOrganicData = [
+export const articleData = [
     {
       id: 1,
       title: 'The Challenge of Standing Out Online',

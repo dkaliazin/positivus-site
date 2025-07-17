@@ -1,4 +1,5 @@
 .article {
+  margin-bottom: 140px;
 }
 .header {
   display: flex;
@@ -59,4 +60,50 @@
   width: 100%;
   display: block;
   margin-bottom: 65px;
+}
+.articletext {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0 10%;
+}
+.articletextitem {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: justify;
+}
+.introtext {
+  font-weight: 500;
+  padding: 0 10%;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+.list {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.listitem {
+  font-size: 18px;
+  font-family: sans-serif, Space Grotesk;
+  font-weight: 400;
+}
+.quotebox {
+  display: flex;
+  gap: 45px;
+  align-items: stretch;
+}
+.greenline {
+  height: auto;
+  border-left: 4px solid #b9ff66;
+  display: block;
+  min-height: 100%;
+}
+.quote {
+  font-size: 24px;
+}
+.ppcbox {
+  min-width: 1240px;
 }

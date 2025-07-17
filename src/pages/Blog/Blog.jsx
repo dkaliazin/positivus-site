@@ -22,6 +22,7 @@ const Blog = () => {
         altAvatar={"Sarah Kim's Avatar"}
         headertitle={'Sarah Kim'}
         headertext={'Content Creator'}
+        introtext={'In the ever-evolving digital landscape, businesses are faced with an important question: should they invest in pay-per-click (PPC) advertising or focus on organic marketing strategies? While both approaches have their merits, choosing the right one depends on your goals, budget, and timeline. Let’s dive into the strengths, challenges, and real-world applications of PPC and organic marketing to help you make an informed decision.'}
         articleData={articleData}
         ppcStatsData={ppcStatsData}
         
