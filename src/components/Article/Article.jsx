@@ -1,6 +1,6 @@
 import css from './Article.module.css';
 
-const Article = ({avatar, altAvatar,introtext, headertext,headertitle,articleData}) => {
+const Article = ({avatar, altAvatar,introtext, headertext,headertitle,articleData,ppcStatsData}) => {
     return (
         <section className={css.article}>
             <div className={css.header}>
@@ -34,6 +34,7 @@ const Article = ({avatar, altAvatar,introtext, headertext,headertitle,articleDat
                                 ))}
                             </>) :
                             id == 3 ? 
+                                
                                 (<>
                                     <h3>{title}</h3>
                                     <div className={css.quotebox}>
@@ -48,10 +49,27 @@ const Article = ({avatar, altAvatar,introtext, headertext,headertitle,articleDat
                                     (<div className={css.ppcbox}>
                                         <h3>{title}</h3>
                                         <ul>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
+                                            {ppcStatsData.map(({ id, title, text }) => (
+                                                <li key={id}>
+                                                    {id === 1 || id === 4 ? 
+                                                        <>
+                                                            <p>{text[0]}</p>
+                                                            <h3>{title}</h3>
+                                                            <p>{text[1]}</p>
+                                                        </> : 
+                                                        id === 2 ?
+                                                            <>
+                                                                <h3>{title}</h3>
+                                                                <p>{text}</p>
+                                                            </> :
+                                                            id === 3 ?
+                                                                <>
+                                                                    <p>{text[0]}</p>
+                                                                    <h3>{title}</h3>
+                                                                    <p>{text[1]}</p>
+                                                                </>:<></>}
+                                                </li>
+                                            ))}
                                         </ul>
                                     </div>) : 
                                     id == 6 ? 
